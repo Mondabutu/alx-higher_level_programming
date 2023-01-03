@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #0x01. Python - if/else, loops, functions
 
 #Tasks 0. Positive anything is better than negative nothing
 
+=======
+##0x01. Python - if/else, loops, functions
+
+#Tasks
+0. Positive anything is better than negative nothing
+>>>>>>> a0666596b649d84e6b6cbd4d61414e1ddf346147
 1. The last digit
 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 3. When I was having that alphabet soup, I never thought that it would pay off
