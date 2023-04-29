@@ -1,3 +1,3 @@
 #!/bin/bash
-# To send a request to a URL, and displays only the status code of the response.
-curl -s -o /dev/null -w "%{http_code}" "$1"
+# sends a JSON POST request to a URL passed as the first argument, and displays the body of the response
+curl -s -X POST "$1" -H "Content-Type: application/json" -d @"$2"
