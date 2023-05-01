@@ -1,3 +1,3 @@
 #!/bin/bash
-# This Makes a request to 0.0.0.0:5000/catch_me that gets the message "You got me!".
-curl -sL -X PUT -H "Origin: HolbertonSchool" -d "user_id=98" 0.0.0.0:5000/catch_me
+# sends a JSON POST request to a URL, and displays the body of the response.
+curl -s -H "Content-Type: application/json" -d "$(cat "$2")" "$1"
